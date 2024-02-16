@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initialize_wire, symObjAddr: 0x0, symBinAddr: 0x100001DF0, symSize: 0x30 }
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: _rlevel, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x62, size: 0x8, addend: 0x0, symName: _initialize_wire, symObjAddr: 0x0, symBinAddr: 0x100001DF0, symSize: 0x30 }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _initialize_node, symObjAddr: 0x30, symBinAddr: 0x100001E20, symSize: 0x44 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _initialize_circuit, symObjAddr: 0x74, symBinAddr: 0x100001E64, symSize: 0x7C }
+  - { offsetInCU: 0xEA, offset: 0xEA, size: 0x8, addend: 0x0, symName: _new_node, symObjAddr: 0xF0, symBinAddr: 0x100001EE0, symSize: 0x160 }
+  - { offsetInCU: 0x13C, offset: 0x13C, size: 0x8, addend: 0x0, symName: _new_wire, symObjAddr: 0x250, symBinAddr: 0x100002040, symSize: 0x138 }
+  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _set_node_value, symObjAddr: 0x388, symBinAddr: 0x100002178, symSize: 0x38 }
+  - { offsetInCU: 0x1C0, offset: 0x1C0, size: 0x8, addend: 0x0, symName: _get_node_value, symObjAddr: 0x3C0, symBinAddr: 0x1000021B0, symSize: 0x30 }
+  - { offsetInCU: 0x1F6, offset: 0x1F6, size: 0x8, addend: 0x0, symName: _insert_nodenode, symObjAddr: 0x3F0, symBinAddr: 0x1000021E0, symSize: 0x30 }
+  - { offsetInCU: 0x228, offset: 0x228, size: 0x8, addend: 0x0, symName: _attach_node_to_wire, symObjAddr: 0x420, symBinAddr: 0x100002210, symSize: 0x378 }
+  - { offsetInCU: 0x2A4, offset: 0x2A4, size: 0x8, addend: 0x0, symName: _evaluate_wire, symObjAddr: 0x798, symBinAddr: 0x100002588, symSize: 0x20C }
+  - { offsetInCU: 0x31C, offset: 0x31C, size: 0x8, addend: 0x0, symName: _evaluate_node, symObjAddr: 0x9A4, symBinAddr: 0x100002794, symSize: 0x368 }
+  - { offsetInCU: 0x386, offset: 0x386, size: 0x8, addend: 0x0, symName: _evaluate_circuit, symObjAddr: 0xD24, symBinAddr: 0x100002B14, symSize: 0x174 }
+  - { offsetInCU: 0x3BB, offset: 0x3BB, size: 0x8, addend: 0x0, symName: _print_circuit, symObjAddr: 0xE98, symBinAddr: 0x100002C88, symSize: 0x28C }
+  - { offsetInCU: 0x43A, offset: 0x43A, size: 0x8, addend: 0x0, symName: _print_truth_table, symObjAddr: 0x113C, symBinAddr: 0x100002F2C, symSize: 0x48C }
+  - { offsetInCU: 0x26, offset: 0x82A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033B8, symSize: 0x58 }
+  - { offsetInCU: 0x33, offset: 0x837, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033B8, symSize: 0x58 }
+  - { offsetInCU: 0x26, offset: 0x9CF, size: 0x8, addend: 0x0, symName: _make_nor, symObjAddr: 0x0, symBinAddr: 0x100003410, symSize: 0x1D4 }
+  - { offsetInCU: 0x33, offset: 0x9DC, size: 0x8, addend: 0x0, symName: _make_nor, symObjAddr: 0x0, symBinAddr: 0x100003410, symSize: 0x1D4 }
+  - { offsetInCU: 0xFF, offset: 0xAA8, size: 0x8, addend: 0x0, symName: _make_inverter, symObjAddr: 0x1D4, symBinAddr: 0x1000035E4, symSize: 0x128 }
+  - { offsetInCU: 0x193, offset: 0xB3C, size: 0x8, addend: 0x0, symName: _make_or, symObjAddr: 0x2FC, symBinAddr: 0x10000370C, symSize: 0x58 }
+  - { offsetInCU: 0x1EF, offset: 0xB98, size: 0x8, addend: 0x0, symName: _make_nand, symObjAddr: 0x354, symBinAddr: 0x100003764, symSize: 0x1BC }
+  - { offsetInCU: 0x2BB, offset: 0xC64, size: 0x8, addend: 0x0, symName: _make_xor_using_nand, symObjAddr: 0x510, symBinAddr: 0x100003920, symSize: 0xC4 }
+  - { offsetInCU: 0x34F, offset: 0xCF8, size: 0x8, addend: 0x0, symName: _make_adder, symObjAddr: 0x5D4, symBinAddr: 0x1000039E4, symSize: 0x1A0 }
+  - { offsetInCU: 0x437, offset: 0xDE0, size: 0x8, addend: 0x0, symName: _make_circuit, symObjAddr: 0x774, symBinAddr: 0x100003B84, symSize: 0x138 }
+...
